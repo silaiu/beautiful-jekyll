@@ -1,10 +1,16 @@
 <!-- TODO this file has become a mess, refactor it -->
 
-{% if page.bigimg or page.title %}
+{% if page.bigimg or page.title or page.cover %}
 
-{% if page.bigimg %}
-  <div id="header-big-imgs" data-num-img={% if page.bigimg.first %}{{ page.bigimg.size }}{% else %}1{% endif %}
-    {% for bigimg in page.bigimg %}
+{% if page.cover and page.project %}
+  {% capture bigimg %}/projects/{{ page.project }}/{{ page.cover }}{% endcapture %}
+{% elsif page.bigimg %}
+  {% assign bigimg = page.bigimg %}
+{% endif %}
+
+{% if bigimg %}
+  <div id="header-big-imgs" data-num-img={% if bigimg.first %}{{ bigimg.size }}{% else %}1{% endif %}
+    {% for bigimg in bigimg %}
 	  {% assign imgnum = forloop.index %}
 	  {% for imginfo in bigimg %}
 	    {% if imginfo[0] %}
@@ -18,8 +24,8 @@
   ></div>
 {% endif %}
 
-<header class="header-section {% if page.bigimg %}has-img{% endif %}">
-{% if page.bigimg %}
+<header class="header-section {% if bigimg %}has-img{% endif %}">
+{% if bigimg %}
 <div class="big-img intro-header">
   <div class="container">
     <div class="row">
@@ -34,7 +40,7 @@
 			<h2 class="{{ include.type }}-subheading">{{ page.subtitle }}</h2>
 			{% endif %}
 		  {% endif %}
-		  
+
 		  {% if include.type == "post" %}
 		  <span class="post-meta">Posted on {{ page.date | date: "%B %-d, %Y" }}</span>
 		  {% endif %}
@@ -59,7 +65,7 @@
 			<h2 class="{{ include.type }}-subheading">{{ page.subtitle }}</h2>
 			{% endif %}
 		  {% endif %}
-		  
+
 		  {% if include.type == "post" %}
 		  <span class="post-meta">Posted on {{ page.date | date: "%B %-d, %Y" }}</span>
 		  {% endif %}

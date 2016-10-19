@@ -14,24 +14,25 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Can Silaiu
+title: My JClic collection
 
 # Short description of your site
-description: Espai de proves amb JClic i altres invents
+description: A collection of amazing JClic activities
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
-  Qui soc: "aboutme"
-  Recursos:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-    - GitHub Pages: "https://pages.github.com/"
+  About: "aboutme"
+  Resources:
+    - The clicZone: "http://clic.xtec.cat"
+    - JClic project: "https://projectestac.github.io/jclic"
+    - JClic.js project: "https://projectestac.github.io/jclic.js"
+    - Repository of JClic.js projects: "https://clic.xtec.cat/repo"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar-icon.png"
+avatar: "/img/jclic-icon.png"
 
 # --- Footer options --- #
 
@@ -40,7 +41,7 @@ avatar: "/img/avatar-icon.png"
 author:
   name: Silaiu
   email: "silaiu@gmail.com"
-  #facebook: yourname  # eg. daattali
+  facebook: silaiu  # eg. daattali
   github: silaiu    # eg. daattali
   #twitter: yourname   # eg. daattali
   #google-plus: +silaiu   # eg. +DeanAttali or 109424658772469020925
@@ -77,7 +78,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "Can Silaiu"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "JClic collection"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
