@@ -8,8 +8,8 @@ subtitle: Collection of amazing JClic activities
   {% for post in paginator.posts %}
   <article class="post-preview">
     {% if post.thumb %}
-    <div style="display:inline-block; padding-right:10pt;">
-      <img style="vertical-align:inherit;" src="projects/{{ post.project }}/{{ post.thumb }}" float="left">
+    <div style="float:left; padding-right:10pt;">
+      <img src="projects/{{ post.project }}/{{ post.thumb }}" float="left">
     </div>
     <div style="display:inline-block;">
     {% endif %}

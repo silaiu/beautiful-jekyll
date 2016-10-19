@@ -1,16 +1,18 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: About this site
+subtitle:
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+This site is just a template for building collections of JClic projects.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+The site is automatically generated and updated by [Jekyll](https://jekyllrb.com/) on [GitHub pages](https://pages.github.com/), or can be manually generated and upploaded wherever you want.
 
-What else do you need?
+_JClic collections_ is based on Dean Attall's [Beautiful Jekyll](http://deanattali.com/beautiful-jekyll/).
 
-### my history
+## How to create your JClic collection ##
+- First of all, you will need an account on [GitHub](https://github.com)
+- Log-in with your account and go to https://github.com/siliau/github.io
+- Clone this repository and rename it as "github.io"
+- Your site will be available on: https://_yourname_.github.io
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
