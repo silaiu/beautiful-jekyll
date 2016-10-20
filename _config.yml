@@ -14,10 +14,10 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: My JClic collection
+title: JClic collection
 
 # Short description of your site
-description: A collection of amazing JClic activities
+description: My collection of amazing JClic activities
 
 # --- Navigation bar options --- #
 
@@ -26,6 +26,7 @@ navbar-links:
   About: "aboutme"
   Resources:
     - clicZone: "http://clic.xtec.cat"
+    - JClic library: "http://clic.xtec.cat/repo"
     - JClic: "https://projectestac.github.io/jclic"
     - JClic.js: "https://projectestac.github.io/jclic.js"
 
