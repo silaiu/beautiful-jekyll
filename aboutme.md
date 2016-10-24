@@ -33,7 +33,7 @@ layout: jclic-project
 title: Title of your new project
 subtitle: Subtitle of your project (leave it blank if not needed)
 project: projectfoldername
-thumb: project-thumb.png
+thumb: project-thumb.jpg
 ---
 Long description of the project....
 ```
