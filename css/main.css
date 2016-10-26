@@ -636,3 +636,15 @@ td.gutter {
   font-size: 8pt;
   font-family: monospace;
 }
+
+.prjhead {
+  margin-bottom: 5pt;
+}
+.prjthumb {
+  float: left;
+  margin-right: 10pt;
+}
+
+.prjblock {
+  display: inline-block;
+}

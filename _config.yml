@@ -19,6 +19,9 @@ title: JClic collection
 # Short description of your site
 description: My collection of amazing JClic activities
 
+# Folder where ths collection of JClic projects is stored
+projects-root: projects
+
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
