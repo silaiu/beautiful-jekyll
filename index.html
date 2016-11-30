@@ -5,14 +5,14 @@ subtitle: My collection of amazing JClic activities
 ---
 
 <!--
-{% for prj in site.static_files %}
+{ % for prj in site.static_files % }
 
-  {% if prj.extname == '.json' %}
-    {% jsonball foo from file prj.path %}
-    {{ foo.title}}<br>
-  {% endif%}
+  { % if prj.extname == '.json' % }
+    { % jsonball foo from file prj.path % }
+    { { foo.title} }<br>
+  { % endif% }
 
-{% endfor %}
+{ % endfor % }
 -->
 
 <div class="posts-list">
